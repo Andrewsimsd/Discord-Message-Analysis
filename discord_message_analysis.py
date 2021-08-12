@@ -41,7 +41,7 @@ def main():
     plt.bar(authors_cleaned, author_count_top.values, zorder = 3)
     plt.xticks(rotation = 'vertical')
     plt.title('Discord Message Distribution by Author')
-    plt.xlabel('Author (gay)')
+    plt.xlabel('Author')
     plt.ylabel('Messages Sent')
     plt.grid(zorder = 0)
     save_path.mkdir(parents = True, exist_ok = True)
